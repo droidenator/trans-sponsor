@@ -7,7 +7,6 @@ import GlobalCss exposing (..)
 import Json.Encode as Encode
 import SharedStyles exposing (..)
 
-
 { id, class, classList } =
     globalNamespace
 main : Html a
@@ -28,6 +27,3 @@ main =
 navElems =
     [ "SPEAKERS", "SCHEDULE", "WORKSHOPS", "VENUE", "BLOG", "CONTACT" ]
         |> List.map (\name -> span [ class [ NavLink ] ] [ text name ])
-
-styles =
-    Css.asPairs >> Html.Attributes.style
