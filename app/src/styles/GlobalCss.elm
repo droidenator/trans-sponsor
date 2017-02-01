@@ -1,13 +1,18 @@
-module Styles.GlobalCss exposing (css)
+module Styles.GlobalCss exposing (..)
 
 import Css exposing (..)
 import Css.Elements exposing (..)
 import Css.Namespace exposing (namespace)
-import Styles.Shared exposing (..)
+
+type CssClasses
+    = NavLink
+
+type CssIds
+    = ReactiveLogo | BuyTickets
 
 
 css =
-    (stylesheet << namespace globalNamespace.name)
+    (stylesheet << namespace "application")
         [ header
             [ backgroundColor (rgb 90 90 90)
             , boxSizing borderBox
