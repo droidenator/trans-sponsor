@@ -12,7 +12,7 @@ type CssIds
 
 
 css =
-    (stylesheet << namespace "application")
+    (stylesheet << namespace "TS")
         [ header
             [ backgroundColor (rgb 90 90 90)
             , boxSizing borderBox
