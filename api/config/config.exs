@@ -32,8 +32,9 @@ config :addict,
   secret_key: "24326224313224522f643546594b68462e796f796d774644374d534565",
   extra_validation: fn ({valid, errors}, user_params) -> {valid, errors} end, # define extra validation here
   user_schema: TransSponsor.User,
-  repo: TransSponsor.Repo,
-  from_email: "no-reply@example.com", # CHANGE THIS
-  mailgun_domain: "",
-  mailgun_key: "",
-  mail_service: :mailgun
+  repo: TransSponsor.Repo
+  # TODO: Setup Mailgun
+  # from_email: "no-reply@example.com", # CHANGE THIS
+  # mailgun_domain: "",
+  # mailgun_key: "",
+  # mail_service: :mailgun
