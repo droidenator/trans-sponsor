@@ -10,8 +10,6 @@ main : Html a
 main =
     div []
         [
-            Html.node "link" [ Html.Attributes.rel "stylesheet", Html.Attributes.href "global.css" ] []
-        ,
             header []
             [ img [ id "ReactiveLogo", src "http://heygirl.io/img/gosling-horiz-2.gif" ] []
             , nav []
