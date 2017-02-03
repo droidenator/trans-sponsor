@@ -32,7 +32,7 @@ defmodule TransSponsor.Mixfile do
   defp deps do
     [{:phoenix, "~> 1.1.6"},
      {:phoenix_ecto, "~> 3.0"},
-     {:postgrex, ">= 0.0.0"},
+     {:postgrex, ">= 0.12.0"},
      {:addict, "~> 0.3"},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"},
