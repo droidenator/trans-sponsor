@@ -36,7 +36,8 @@ defmodule TransSponsor.Mixfile do
      {:addict, "~> 0.3"},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"},
-     {:dogma, "~> 0.1", only: :dev}]
+     {:dogma, "~> 0.1", only: :dev},
+     {:exrm, "~> 0.15.3"}]
   end
 
   # Aliases are shortcut or tasks specific to the current project.
