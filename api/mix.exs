@@ -34,6 +34,7 @@ defmodule TransSponsor.Mixfile do
      {:phoenix_ecto, "~> 3.0"},
      {:postgrex, ">= 0.12.0"},
      {:addict, "~> 0.3"},
+     {:comeonin, "~> 3.0", override: true},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"},
      {:dogma, "~> 0.1", only: :dev},
